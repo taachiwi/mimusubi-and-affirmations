@@ -26,7 +26,7 @@ const createWindow = async () => {
   await mainWindow.loadFile(path.join(__dirname, 'index.html'));
 
   // Load the URL
-  //await mainWindow.loadURL('https://www.mimusubi.com/'); // Don't need it right now
+  // await mainWindow.loadURL('https://www.mimusubi.com/'); // Don't need it right now
 
   // Prevent opening new windows
   mainWindow.webContents.setWindowOpenHandler(({ url }) => {
